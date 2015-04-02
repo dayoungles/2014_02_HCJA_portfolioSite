@@ -1,0 +1,118 @@
+header{
+/* 	width: 100%; */
+
+/* 	border: 1px solid black; */
+	margin: 20px; /* 오른쪽 마진이 이상해 보이는데, width100%가 있으면 이상해보이는 듯? 왜 그러지?  */
+}
+
+header div{
+	font-family:  cursive, "Lucida Console", Monaco, monospace;
+	font-size: 5em;
+	margin: 60px auto;
+	width: 450px;
+	color: #820007;
+	font-weight: bold;
+}
+
+nav {
+	margin-top: 30px;
+}
+						
+nav div.visible {
+	overflow:hidden;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	margin: 20px 0px;
+}
+
+nav div.directImg{
+	width: 10%;
+	height: 100px;
+	position: absolute;
+	overflow:hidden;
+	background-image:;
+ 	z-index: -1;
+}
+nav div.directImg>img {
+	width: 100%;
+	
+}
+nav div.direct {
+	width: 10%;
+	height: 100px;
+	position: absolute;
+	overflow:hidden;
+	opacity: 0;	
+}
+
+nav div.direct>img{
+	height:100%;
+	position:relative;
+	left:15%;
+}
+nav div.direct:hover {
+	opacity:1;
+	
+}
+
+ul.list{
+	width: 300%;
+	height: 200px;
+	position:relative;
+	
+}
+
+ul li.backboard  {
+	height: 100px;
+	position: absolute;
+	margin-left: 65px;
+	float:left;
+}
+
+li.first {
+	left: 0px;
+}
+
+li.second {
+	left: 1500px;
+}
+
+li.third {
+	left: 3000px;
+}
+
+ul li span {
+	font-family: 'Abel', sans-serif, "Lucida Console", Monaco, monospace;
+	font-size: 6em;
+	letter-spacing: 0.3em;
+	
+}
+
+nav ul.slow div.article0 {
+	left:150px;
+}
+
+nav ul.slow div.article1 {
+	left: 50px;
+}
+
+nav ul.right div.article2 {
+	left:50px;
+}
+
+nav ul.right div article3{
+	left:1300px;
+}
+
+nav ul.fast div.article0{
+	left:700px;
+}
+
+nav ul.fast div.article1{
+	left:200px;
+}
+
+nav ul.fast div.article2{
+	left:700px;
+}

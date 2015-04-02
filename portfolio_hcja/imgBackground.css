@@ -1,0 +1,58 @@
+article li.img {
+    background-repeat: no-repeat;	
+    background-size: auto 400px;
+    background-position: center center;
+}
+
+/* article0-li cats*/
+article#article0 li#img0{
+	background-image:url("image/cat1.jpg");
+    background-repeat: no-repeat;
+}
+article#article0 li#img1{
+	background-image: url("image/cat2.jpg");
+}
+article#article0 li#img2{
+	background-image: url("image/cat3.jpg");
+}
+article#article0 li#img3{
+	background-image: url("image/cat4.jpg");
+}
+article#article0 li#img4{
+	background-image: url("image/cat5.jpg");
+}
+
+
+/* article1-li img dog */
+article#article1 li#img0{
+	background-image: url("image/dog1.jpg");
+}
+article#article1 li#img1{
+	background-image: url("image/dog2.jpg");
+}
+article#article1 li#img2{
+	background-image: url("image/dog3.jpg");
+}
+
+/* article-li img betta */
+article#article2 li#img0{
+	background-image: url("image/betta1.jpg");
+}
+article#article2 li#img1{
+	background-image: url("image/betta2.jpg");
+}
+article#article2 li#img2{
+	background-image: url("image/betta3.jpg");
+}
+article#article2 li#img3{
+	background-image: url("image/betta4.jpg");
+}
+
+/* article li img bear */
+article#article3 li#img0{
+	background-image: url("image/bear1.jpg");
+}
+article#article3 li#img1{
+	background-image: url("image/bear2.jpg");
+}
+

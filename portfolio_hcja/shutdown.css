@@ -1,0 +1,45 @@
+div#shutdown{
+	background-color: rgba(0,0,0,.9); 
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:400;
+/* 	display:block; */
+ 	display:none; 
+}
+
+div#exit img {
+	width:50px;
+}
+
+div#shutdown img_page{
+	color:#fff;
+}
+
+div#shutdown li {
+	width:700px;
+	height:400px;
+    background-repeat: no-repeat;	
+/*     background-size: auto 400px; */
+    background-position: center center;
+}
+
+div#shutdown div.arrow img, div.img_page {
+	width: 50px;
+	position:relative;
+	top: 300px;
+}
+
+div#shutdown div.left{
+	float:left;
+}
+
+div#shutdown div.right{
+	float:right;
+}
+
+div#shutdown div.img_page{
+	color:#fff;
+}

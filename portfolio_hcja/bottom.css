@@ -1,0 +1,82 @@
+article {
+	position:relative;
+	width: 70%;
+	margin:100px auto;
+}
+
+article li img {
+	opacity:0;
+}
+div.arrow img, div.img_page {
+	width: 50px;
+	position:relative;
+	top: 300px;
+}
+
+div.left{
+	float:left;
+}
+
+div.right{
+	float:right;
+}
+div.block{
+	width: 700px;
+	height: 600px;
+	margin: 0px auto;
+}
+div.show_image{
+
+	margin:0px auto;
+	overflow:hidden;
+
+}
+div.show_image:hover{
+	visibility: visible;
+}
+
+
+ul.img_list>li{
+	float:left;
+	width: 700px;
+	
+}
+
+
+
+ul li.img img{
+	height: 400px;
+	margin: 0px auto;
+	
+	display:block;/* 이 부분이 뭔가 문제를 만들어내는 듯. 중앙정렬하는 방법을 다시 찾아볼것. */
+}
+
+
+article img:hover{
+	opacity:1;
+}
+
+article ul.img_list{
+	position:relative;
+	left:0px;
+}
+article#article0 ul.img_list{
+	width: 3500px;
+
+}
+
+article#article1 ul.img_list{
+	width: 2100px;
+
+}
+
+article#article2 ul.img_list{
+	width: 2800px;
+
+}
+article#article3 ul.img_list{
+	width: 1400px;
+
+}
+
+
